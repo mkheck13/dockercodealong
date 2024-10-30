@@ -1,0 +1,64 @@
+
+
+/* Genral Use Section */
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url(/assets/fonts/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'IBM Plex Bold';
+    src: url(/assets/fonts/IBMPlexSans-Bold.ttf);
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.font-bold{
+    font-family: 'IBM Plex Bold', sans-serif;
+}
+.text-xs{
+    font-size: 14px;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-even{
+    display: flex;
+    justify-content: space-evenly;
+}
+.width-33{
+    width: 33.3%;
+}
+
+
+/* Navbar Section */
+.navbar-parent{
+    margin: 1.5% 4.25% 0;
+}
+.docker-logo{
+    width: 8rem;
+}
+.icon-space{
+    padding-left: 2rem;
+}
+.sale-text{
+    color: darkred;
+}
+
+/* Under Nav Section */
+.under-nav{
+    background-color: #101c2c;
+    padding: .25rem 0;
+} 
+.under-nav-btn {
+    color: white;
+    background-color: transparent;
+    width: 25rem;
+    height: 3.75rem;
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+.under-nav-btn:hover{
+    background-color: rgba(255, 255, 255, 0.85);;
+
+}
