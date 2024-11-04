@@ -18,6 +18,12 @@ body{
 .text-xs{
     font-size: 14px;
 }
+.text-md{
+    font-size: 20px;
+}
+.text-xl{
+    font-size: 56px;
+}
 .flex-between{
     display: flex;
     justify-content: space-between;
@@ -45,6 +51,15 @@ body{
     color: darkred;
 }
 
+/* Carousel Start */
+.carousel-arrow-btn{
+    padding-bottom: 0.8rem;
+
+}
+.carousel-arrow{
+    height: 15px;
+}
+
 /* Under Nav Section */
 .under-nav{
     background-color: #101c2c;
@@ -61,4 +76,40 @@ body{
 .under-nav-btn:hover{
     background-color: rgba(255, 255, 255, 0.85);;
 
+}
+
+
+/* Hero Image */
+.hero-image{
+    background-image: url(/assets/DockerHero.PNG);
+    height: 49rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 3rem;
+}
+.hero-btn{
+    background-color: white;
+    border: 1px solid white;
+    width: 19rem;
+    padding: 0.8rem 0;
+    margin-left: 1rem;
+}
+
+/* Features Section */
+.features-parent{
+    background-color: #f7f6f3;
+    padding: 2rem 0 3rem;
+}
+.features-section{
+    width: 17%;
+}
+.features-icons{
+    padding-bottom: 2rem;
 }
